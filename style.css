@@ -1,0 +1,70 @@
+/* html {
+  height: 100%;
+  width: 100%;
+} */
+
+
+.custom-shape-divider-top-1 {
+    position: fixed;
+    top: -10;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 5;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1 svg {
+    position: absolute;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+
+.custom-shape-divider-top-1 .shape-fill {
+      fill: #18517f;
+}
+
+    /** For mobile devices **/
+@media (max-width: 767px) {
+      .custom-shape-divider-top-1 svg {
+        width: calc(216% + 1.3px);
+        height: 187px;
+      }
+}
+
+.custom-shape-divider-bottom-1678063160 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1678063160 svg {
+    position: absolute;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1678063160 .shape-fill {
+    fill: #ffffff;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1678063160 svg {
+        width: calc(216% + 1.3px);
+        height: 187px;
+    }
+}
+
+body {
+  height: 1000px;
+}
